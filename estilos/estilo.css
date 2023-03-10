@@ -1,4 +1,4 @@
-/* BARRA */
+/* BARRA -------------------------------------------------*/
 .topnav {
     background-color: rgba(0, 0, 0, 0.6);  /* transparencia e cor da barra */
     overflow: hidden;
@@ -26,42 +26,12 @@
     color: white;
 }
 Try it Yourself »
-/* BARRA */
+/* BARRA -----------------------------------------------------------*/
 
-
-
-h1 {text-align: center;
-   color: red;
-    } 
-h4{text-align: center;
-   color: red;
-    } 
-
-
-image {height: 50 px;
-       width:50 px;}
-
-
-
-
-header, div {
-  box-sizing: border-box;
-}
-
-header {
-  position: relative;
-  width: 1220px;
-  max-width: 90%;
-  height: 120px;
-  top: 0px;
-  right: 0px;
-  left: 0px;
-  margin: 0px auto;
-}
 
 #image {
-  width: 10%; /*borda para a esquerda*/
-  height: 10%
+  width: 200px; /*borda para a esquerda*/
+  height: 200px;
 }
 
 #Imagemespecial{
@@ -94,13 +64,56 @@ header {
 	  margin-top: 5px;
 	  }
 	  
-#Conteudo{ background-color: rgba(0, 0, 0, 0.5); /*cor do meio*/  /*fundo cor*/
+#Conteudo{ 
+	  background-image: url(../imagens/cavaleiros.jpg);
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-color: #9FDEFB; /*cor do meio*/  /*fundo cor*/
       height: 100%;     /*Altura*/
 	  width: 100%;        /*Largura*/
 	  font-size: 100%;
-	  float:left;
+	  text-align: center;
 	  margin-top: 3%;
-	  color:yellow
+	  color:black;
 	  
 	  
 	  }
+	  
+	  
+#divcolor {
+	background-color: #EDFDFF;
+	
+}
+
+.footer {
+  overflow: hidden;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);  /* transparencia e cor da barra */
+  color: white;
+  text-align: center;^
+}
+
+.footer a {
+    float: center;
+    color: white;  /* COR DA LETRA DO MENU */ 
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-size: 20px;
+}
+  
+
+
+
+@font-face {
+  font-family: Saint Pegasus;
+}
+
+h1 {
+  font-family: Saint Pegasus;
+  text-shadow: 1px 1px;
+  color: white;
+  size: 10px;
+}
