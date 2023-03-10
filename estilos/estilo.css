@@ -4,7 +4,7 @@
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
+/* Estilize os links dentro da barra de navegação */
 .topnav a {
     float: left;
     color: white;  /* COR DA LETRA DO MENU */ 
@@ -14,13 +14,13 @@
     font-size: 20px;
 }
 
-/* Change the color of links on hover */
+/* Alterar a cor dos links ao passar o mouse */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Add a color to the active/current link */
+/* Adicione uma cor ao link ativo/atual */
 .topnav a.active {
     background-color: red;
     color: white;
@@ -68,7 +68,7 @@ Try it Yourself »
 	  background-image: url(../imagens/cavaleiros.jpg);
 	  background-repeat: no-repeat;
 	  background-attachment: fixed;
-	  background-color: #9FDEFB; /*cor do meio*/  /*fundo cor*/
+	  background-color: black; /*cor do meio*/  /*fundo cor*/
       height: 100%;     /*Altura*/
 	  width: 100%;        /*Largura*/
 	  font-size: 100%;
@@ -79,12 +79,12 @@ Try it Yourself »
 	  
 	  }
 	  
-	  
+/*DIVISÃO*/ 
 #divcolor {
-	background-color: #EDFDFF;
+	background-color: #EDFDFF; /*cor do fundo*/
 	
 }
-
+/*RODAPÉ*/
 .footer {
   overflow: hidden;
   left: 0;
@@ -94,7 +94,7 @@ Try it Yourself »
   color: white;
   text-align: center;^
 }
-
+/*RODAPÉ*/
 .footer a {
     float: center;
     color: white;  /* COR DA LETRA DO MENU */ 
@@ -108,12 +108,23 @@ Try it Yourself »
 
 
 @font-face {
-  font-family: Saint Pegasus;
+  font-family: Saint Pegasus;/*nome da fonte*/
 }
 
 h1 {
-  font-family: Saint Pegasus;
-  text-shadow: 1px 1px;
-  color: white;
-  size: 10px;
+  font-family: Saint Pegasus; /*nome da fonte*/
+  text-shadow: 2px 2px; /*Efeito de sombra*/
+  font-size: 60px; /*Tamanho da fonte do texto*/
+  color: black; /*primeira cor do texto*/
+  -webkit-text-fill-color: white; /*sefunda cor do texto*/
+  text-decoration: underline;
+}
+
+p {
+text-align: justify-all;
+/*padding é o preenchimento, ou seja espaçamento.*/
+padding-bottom:0; 
+padding-left:2%;
+padding-right:3%;
+padding-top:0;
 }
